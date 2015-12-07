@@ -1,19 +1,10 @@
 //////////////////////////////////////////////////////////////////////////
-//
-// 이 화일은 함수 등록시 자동으로 생성된 프로젝트입니다.
-//
-// 사용자가 임으로 만든 경우, Project의 Setting...의 설정이 필요하므로,
-//
-// 이는 도움말의 '함수 작성법'을 참조 바랍니다.
-//
-//////////////////////////////////////////////////////////////////////////
 
 #include <windows.h>
 #include "InterestingPointDetect.h"
 #include "opencv2\core\core.hpp"
 #include "opencv2\highgui\highgui.hpp"
 
-// DLL을 만들기 위한 부분
 BOOL WINAPI DllMain (HINSTANCE hDLL, DWORD dwReason, LPVOID lpReserved)
 {
 	switch (dwReason)
